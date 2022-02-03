@@ -1,0 +1,26 @@
+'''
+num=int(input())
+a=input()
+if a=='k':
+	res=num/1024
+else:
+	res=num*1024
+try:
+	dec=input()
+	b=int(dec)-len(str(ans))+2
+	print(str(round(res,int(dec)))+("0"*b))
+except:
+	print(round(res))
+'''
+n=int(input())
+m=input()
+if(m=='k'):
+	res=n/1024
+	l=int(input())
+	if(n%1024==0):
+		print(str(round(res,int(l)))+("0"*l))
+	else:
+		print(round(res,l))
+else:
+	res=n*1024
+	print(res)
