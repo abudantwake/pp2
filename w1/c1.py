@@ -8,9 +8,13 @@ for i in s:
 print(s)
 '''
 s=input()
-cnt=0
-def to_low(str):
-	for i in s:
+#cnt=0
+def to_low(w):
+	global res
+	res=w.lower()
+	'''for i in range(len(str)):
 		if(ord(i)>=65 and ord(i)<=90):
 			l=chr(ord(i)+32)
-print(to_low(s))
+			s=s.replace(i,l)'''
+to_low(s)
+print(res)
