@@ -14,3 +14,4 @@ for x in num:
             maxi = int(x) * int(y)
 
 print(maxi)
+#

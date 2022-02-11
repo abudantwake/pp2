@@ -15,3 +15,4 @@ for y in arr2:
         if y == ((int(x[0]) - int(x_y[0]))**2 + (int(x[1]) - int(x_y[1]))**2)**(1/2):
             print(x[0] ,x[1])
             arr.remove(x)
+            #

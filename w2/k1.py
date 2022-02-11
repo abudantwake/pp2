@@ -9,3 +9,4 @@ word.sort()
 print(len(word))
 for x in word:
     print(x)
+    #

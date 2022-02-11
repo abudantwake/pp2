@@ -11,3 +11,4 @@ for x in range(a):
         shelf.pop(0)
 for x in taken:
     print(x , end = " ")
+    #

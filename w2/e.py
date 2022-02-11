@@ -20,3 +20,4 @@ except:
     for x in arr:
         out ^= x
     print(out)
+    #

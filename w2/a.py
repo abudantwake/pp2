@@ -9,3 +9,4 @@ def jumpy(num):
 		return 1
 	return 0
 print(jumpy(input().split()))
+#
