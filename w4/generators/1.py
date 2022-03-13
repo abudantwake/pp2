@@ -19,7 +19,7 @@
 
 n=input()
 
-#def num(n):
+def num(n):
   #s=1
   for i in range(1,n):
     yield i**2
@@ -27,7 +27,5 @@ n=input()
 
 x=(num(n))
 
-#<generator object f_gen at 0x0000023EE468D6D0>
-
-#for i in x:
-# print(i)
+for i in x:
+ print(i)
