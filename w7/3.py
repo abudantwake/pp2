@@ -27,4 +27,4 @@ while not done:
     screen.fill((0, 0, 0))
     pygame.draw.circle(screen, (255, 0, 0), (x, y), 25)  
     pygame.display.flip()     
-    clock.tick(60)     
+    clock.tick(60) #    
