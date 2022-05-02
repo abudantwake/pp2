@@ -10,7 +10,7 @@ tile_size = 40
 screen_width, screen_height = len(level_1[0])*tile_size, len(level_1)*tile_size
 screen = pygame.display.set_mode((screen_width + 200, screen_height))
 pygame.display.set_caption("Zmeyka.kz")
-background = pygame.image.load('images\grass.png')
+background = pygame.image.load('images/grass.png')
 background = pygame.transform.scale(background, (screen_width,screen_height))
 clock = pygame.time.Clock()
 tail_list = []
