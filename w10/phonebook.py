@@ -3,9 +3,9 @@ import psycopg2
 import csv
 
 con = psycopg2.connect(
-    database='postgres',
+    #database='postgres',
     user='postgres',
-    password='12345678',
+    password='superuser123',
     host="localhost",
     port="5432"
 )
